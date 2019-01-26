@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a7a829-d3a2-417e-ba3c-9527d70f98a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoApp/ShoesRIS/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RIS/vgg19_approach.py" beforeDir="false" afterPath="$PROJECT_DIR$/RIS/vgg19_approach.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,38 +20,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Collection/scrape_data.py">
+        <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="38" column="90" selection-start-line="38" selection-start-column="90" selection-end-line="38" selection-end-column="90" />
+            <state relative-caret-position="46">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RIS/vgg19_approach.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Collection/raw_data.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="25" lean-forward="true" selection-end-column="25" />
+        <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DjangoApp/DjangoApp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -70,10 +70,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Data Collection/download_images.py" />
         <option value="$PROJECT_DIR$/Data Collection/scrape_data.py" />
         <option value="$PROJECT_DIR$/RIS/vgg19_approach.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Django App/Django.py" />
+        <option value="$PROJECT_DIR$/DjangoApp/ShoesRIS/views.py" />
+        <option value="$PROJECT_DIR$/DjangoApp/ShoesRIS/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoApp/DjangoApp/urls.py" />
       </list>
     </option>
   </component>
@@ -99,7 +103,19 @@
             <path>
               <item name="Reverse-Image-Search-based-Football-Shoes-detection-tool" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reverse-Image-Search-based-Football-Shoes-detection-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Collection" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reverse-Image-Search-based-Football-Shoes-detection-tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reverse-Image-Search-based-Football-Shoes-detection-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reverse-Image-Search-based-Football-Shoes-detection-tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reverse-Image-Search-based-Football-Shoes-detection-tool" type="462c0819:PsiDirectoryNode" />
+              <item name="DjangoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ShoesRIS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,17 +229,18 @@
       <updated>1548369431923</updated>
       <workItem from="1548369433427" duration="3039000" />
       <workItem from="1548372492057" duration="5517000" />
-      <workItem from="1548530780857" duration="2847000" />
+      <workItem from="1548530780857" duration="5847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11403000" />
+    <option name="totallyTimeSpent" value="14403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,7 +254,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Mongo Explorer" visible="true" weight="0.2354813" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -252,21 +269,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Data Collection/00000001.jpg" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="127" selection-start-line="4" selection-start-column="127" selection-end-line="4" selection-end-column="127" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Collection/download_images.py" />
     <entry file="file://$PROJECT_DIR$/Data Collection/raw_data.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
-          <caret column="25" lean-forward="true" selection-end-column="25" />
+          <caret column="25" selection-end-column="25" />
         </state>
       </provider>
       <provider editor-type-id="text-editor" />
@@ -286,10 +293,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RIS/vgg19_approach.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-131">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django App/Django.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/DjangoApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
