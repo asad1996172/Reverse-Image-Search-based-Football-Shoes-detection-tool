@@ -4,6 +4,12 @@ from keras.applications.vgg19 import preprocess_input
 from keras.models import Model
 import numpy as np
 from scipy import spatial
+import pandas as pd
+from pymongo import MongoClient
+
+
+client = MongoClient()
+client = MongoClient('mongodb://localhost:27017')
 
 def get_features(img_path):
     img = image.load_img(img_path, target_size=(224, 224))
@@ -11,13 +17,26 @@ def get_features(img_path):
     x = np.expand_dims(x, axis=0)
     x = preprocess_input(x)
     flatten = model.predict(x)
-    return flatten
+    return list(flatten[0])
 
 base_model = VGG19(weights='imagenet')
 model = Model(inputs=base_model.input, outputs=base_model.get_layer('flatten').output)
 
-# img_path = '../Data Collection/Football Shoes Images/1.jpg'
+risdb = client["RIS"]
+shoesdata = risdb["ShoesFeatures"]
 
-sim = 1 - spatial.distance.cosine(get_features('../Data Collection/Football Shoes Images/3.jpg'),
-                                  get_features('../Data Collection/Football Shoes Images/5.jpg'))
-print(sim)
+raw_data = pd.read_csv('../Data Collection/raw_data.csv')
+
+
+for index, row in raw_data.iterrows():
+    print(index)
+    name = row["Name"]
+    image_url = row["Image URL"]
+    image_name = row["Image Name"]
+
+    image_features = get_features('../Data Collection/' + image_name)
+    image_features = ['{:.5f}'.format(x) for x in image_features]
+    mydict = { "name": name, "image_url": image_url,
+               "image_name": image_name, "image_features":image_features }
+
+    shoesdata.insert(mydict)
