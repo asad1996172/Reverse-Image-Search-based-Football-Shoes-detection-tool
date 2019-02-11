@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a7a829-d3a2-417e-ba3c-9527d70f98a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/mongoSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/DjangoApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/RIS/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/DjangoApp/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/DjangoApp/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/DjangoApp/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/ShoesRIS/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoApp/manage.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Reverse_Image_Search_based_Football_Shoes_detection_tool$testing.coverage" NAME="testing Coverage Results" MODIFIED="1549850664379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RIS" />
+    <SUITE FILE_PATH="coverage/Reverse_Image_Search_based_Football_Shoes_detection_tool$testing.coverage" NAME="testing Coverage Results" MODIFIED="1549854009653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RIS" />
     <SUITE FILE_PATH="coverage/Reverse_Image_Search_based_Football_Shoes_detection_tool$download_images.coverage" NAME="download_images Coverage Results" MODIFIED="1548373587827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Collection" />
     <SUITE FILE_PATH="coverage/Reverse_Image_Search_based_Football_Shoes_detection_tool$scrape_data.coverage" NAME="scrape_data Coverage Results" MODIFIED="1548373736518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Collection" />
     <SUITE FILE_PATH="coverage/Reverse_Image_Search_based_Football_Shoes_detection_tool$vgg19_approach.coverage" NAME="vgg19_approach Coverage Results" MODIFIED="1548533411283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RIS" />
@@ -36,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RIS/vgg19_approach.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="966">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -48,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RIS/testing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="297">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -95,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,6 +96,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,12 +230,13 @@
       <workItem from="1548372492057" duration="5517000" />
       <workItem from="1548530780857" duration="7943000" />
       <workItem from="1549132538140" duration="660000" />
-      <workItem from="1549848652123" duration="2025000" />
+      <workItem from="1549848652123" duration="2469000" />
+      <workItem from="1549852118959" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19184000" />
+    <option name="totallyTimeSpent" value="20469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
@@ -277,7 +263,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" visible="true" weight="0.24264121" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" visible="true" weight="0.24661893" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,43 +304,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django App/Django.py" />
-    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DjangoApp/DjangoApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="e#633#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/admin.py" />
+    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/views.py" />
+    <entry file="file://$PROJECT_DIR$/DjangoApp/ShoesRIS/urls.py" />
+    <entry file="file://$PROJECT_DIR$/DjangoApp/DjangoApp/urls.py" />
     <entry file="file://$PROJECT_DIR$/RIS/vgg19_approach.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="966">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
@@ -363,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RIS/testing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="297">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
