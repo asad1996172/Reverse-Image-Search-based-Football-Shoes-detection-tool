@@ -13,4 +13,4 @@ After extracting features, I create a database using MongoDB to store all the da
 # Testing
 After saving the features in the db, I tested this approach by giving it one image and then extracting the 4 most similar images. The following image shows the results. First image at the top is the query image and then the results are arranged from left to right in terms of similariy score with left one being the highest.
 
-![Result](Screenshot from 2019-02-10 21-00-47.png)
+![Result](https://github.com/asad1996172/Reverse-Image-Search-based-Football-Shoes-detection-tool/blob/master/Screenshot%20from%202019-02-10%2021-00-47.png)
