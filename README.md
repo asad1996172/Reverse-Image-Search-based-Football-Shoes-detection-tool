@@ -9,4 +9,8 @@ Main idea behind this method for reverse image search is to define images in ter
 I extract features using a pre-trained VGG-19 network with keras. We get the features from the third last layer called flatten. Idea was that this layer is capturing some low level features like edges and shapes e.t.c.
 
 After extracting features, I create a database using MongoDB to store all the data.
-# Under Construction
+
+# Testing
+After saving the features in the db, I tested this approach by giving it one image and then extracting the 4 most similar images. The following image shows the results. First image at the top is the query image and then the results are arranged from left to right in terms of similariy score with left one being the highest.
+
+![Result](Screenshot from 2019-02-10 21-00-47.png)
